@@ -1,1 +1,20 @@
+.f_right{
+  float: right;
+}
 
+.bg_blue{
+  background-color: blue;
+}
+
+.tx_center{
+  text-align: center;
+}
+
+.img_circle{
+  width: 200px;
+  margin-top: 50px;
+}
+
+.white{
+  color: white;
+}
