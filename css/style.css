@@ -5,6 +5,9 @@
 .bg_blue{
   background-color: blue;
 }
+.bg_green{
+  background-color: green;
+}
 
 .tx_center{
   text-align: center;
@@ -42,4 +45,35 @@
 
 .m_50{
   margin: 50px 0;
+}
+
+.p_left{
+  padding-left: 60px;
+}
+.p_right{
+  padding-right: 60px;
+}
+
+.list_icon{
+  list-style: none;
+  margin-right: 30px;
+}
+.list_icon li{
+  display: inline-block;
+  font-size: 30px;
+  margin: 0 10px;
+}
+
+.red{
+  color: red;
+}
+
+.p_top{
+  padding: 50px 0;
+}
+
+@media screen and (max-width: 768px){
+  .ciao{
+    padding: 0 100px;;
+  }
 }
