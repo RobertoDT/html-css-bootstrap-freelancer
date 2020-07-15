@@ -29,3 +29,12 @@
 .pad{
   padding: 20px;
 }
+
+.btn {
+  background-color: blue;
+  border-color: white;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
