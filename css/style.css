@@ -15,9 +15,33 @@ h2{
   font-size: 30px;
   margin: 20px 0;
 }
+.fa-star::before{
+  content: '';
+  display: inline-block;
+  width: 15%;
+  height: 4px;
+  border-radius: 2px;
+  line-height: 4px;
+  vertical-align: middle;
+  background-color: white;
+}
 
 
 
+
+
+
+.layover{
+  width: 360px;
+  height: 260px;
+  background-color: rgba(26, 188, 156, 0.7);
+  position: relative;
+}
+
+
+.box-portfolio:hover{
+
+}
 
 .p_top_80{
   padding-top: 80px;
@@ -65,6 +89,7 @@ h2{
   width: 100%;
   border-radius: 10px;
 }
+
 
 .pad{
   margin: 20px 0;
@@ -118,7 +143,9 @@ h2{
     padding: 0 100px;
   }
 
-  .box_img{
-    
+  .box-portfolio{
+    max-width: 350px;
+    max-height: 350px;
+    margin: auto;
   }
 }
