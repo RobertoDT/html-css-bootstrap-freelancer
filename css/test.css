@@ -1,0 +1,75 @@
+/* MIX */
+.p_top_80{
+  padding-top: 80px;
+}
+.p_bottom_80{
+  padding-bottom: 80px;
+}
+.wrapper_small{
+  max-width: 800px;
+  margin: auto;
+}
+/* header fatto a mano */
+
+.header_top{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 70px;
+  line-height: 70px;
+  background-color: green;
+}
+
+/* jumbo fatto a mano */
+.jumbo{
+  height: 300px;
+  margin-top: 70px;
+  background-color: red;
+  padding: 70px 0;
+}
+.jumbo_text{
+  max-width: 900px;
+  padding: 0 15px;
+  margin: auto;
+  text-align: center;
+}
+
+/* portfolio fatto a mano*/
+
+.box-portfolio{
+  height: 300px;
+  background-color: yellow;
+  margin-bottom: 30px;
+}
+
+.bg_green{
+  background-color: green;
+}
+
+h1 {
+  overflow: hidden;
+  text-align: center;
+}
+
+h1:before,
+h1:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+h1:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h1:after {
+  left: 0.5em;
+  margin-right: -50%;
+}

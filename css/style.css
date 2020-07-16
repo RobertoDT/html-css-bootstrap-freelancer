@@ -1,16 +1,51 @@
+/* MIX */
+body{
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+h1{
+  font-weight: 700;
+}
+
+h2{
+  font-size: 50px;
+}
+
+.fa-star{
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+
+
+
+.p_top_80{
+  padding-top: 80px;
+}
+.p_bottom_80{
+  padding-bottom: 80px;
+}
+
+.wrapper_small{
+  max-width: 800px;
+  margin: auto;
+}
+
 .f_right{
   float: right;
 }
 
 .bg_blue{
-  background-color: blue;
+  background-color: #1ABC9C;
 }
 .bg_green{
   background-color: green;
 }
-
-.tx_center{
-  text-align: center;
+.bg_dark{
+  background-color: #2C3E50;
+}
+.bg_dark2{
+  background-color: #1A252F;
 }
 
 .img_circle{
@@ -22,28 +57,27 @@
   color: white;
 }
 
-.box_g{
-  width: 300px;
+.box-portfolio{
   height: 300px;
-  background-color: green;
-  margin: auto;
+}
+
+.box_img{
+  width: 100%;
+  border-radius: 10px;
 }
 
 .pad{
-  padding: 20px;
+  margin: 20px 0;
 }
 
-.btn {
-  background-color: blue;
+.btn2 {
+  background-color: #1ABC9C;
   border-color: white;
+  border-radius: 5px;
   color: white;
   padding: 12px 30px;
   cursor: pointer;
   font-size: 20px;
-  margin: 50px 0;
-}
-
-.m_50{
   margin: 50px 0;
 }
 
@@ -64,16 +98,27 @@
   margin: 0 10px;
 }
 
-.red{
-  color: red;
+.blue{
+  color: #1ABC9C;
+}
+.dark{
+  color: #2C3E50;
 }
 
-.p_top{
-  padding: 50px 0;
+.p_top_20{
+  padding: 20px 0;
 }
+.p_top{
+  padding: 70px 0;
+}
+
 
 @media screen and (max-width: 768px){
   .ciao{
-    padding: 0 100px;;
+    padding: 0 100px;
+  }
+
+  .box_img{
+    
   }
 }
