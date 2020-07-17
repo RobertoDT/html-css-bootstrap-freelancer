@@ -117,6 +117,13 @@ h2{
   position: relative;
 }
 
+.about_text{
+  font-size: 20px;
+}
+
+.footer_text{
+  font-size: 20px;
+}
 
 .pad{
   margin: 20px 0;
@@ -164,8 +171,6 @@ h2{
 .dark{
   color: #2C3E50;
 }
-
-
 
 .p_top_20{
   padding: 20px 0;
