@@ -148,6 +148,18 @@ h2{
   margin: 20px 0;
 }
 
+.foot_circle{
+  border: 1px solid white;
+  border-radius: 100%;
+  text-align: center;
+  padding: 10px;
+  vertical-align: middle;
+  height: 100%;
+  line-height: 100%;
+}
+
+
+
 .p_left{
   padding-left: 60px;
 }
@@ -162,7 +174,7 @@ h2{
 .list_icon li{
   display: inline-block;
   font-size: 30px;
-  margin: 0 10px;
+  margin: 0 5px;
 }
 
 .blue{
