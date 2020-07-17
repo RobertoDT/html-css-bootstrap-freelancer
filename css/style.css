@@ -8,11 +8,16 @@ h1{
 
 h2{
   font-size: 50px;
+  font-weight: bold;
+}
+h3{
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .fa-star{
   font-size: 30px;
-  margin: 20px 0;
+  margin: 20px 10px;
   vertical-align: middle;
 }
 .ms_star::before,
@@ -60,6 +65,7 @@ h2{
 
 .box-portfolio:hover .layover {
   display: block;
+  cursor: pointer;
 }
 
 .p_top_80{
@@ -87,9 +93,6 @@ h2{
 .bg_blue{
   background-color: #1ABC9C;
 }
-.bg_green{
-  background-color: green;
-}
 .bg_dark{
   background-color: #2C3E50;
 }
@@ -99,7 +102,7 @@ h2{
 
 
 .img_circle{
-  width: 200px;
+  width: 250px;
   margin-top: 50px;
 }
 
@@ -131,7 +134,7 @@ h2{
 
 .btn2 {
   background-color: #1ABC9C;
-  border-color: white;
+  border: 2px solid white;
   border-radius: 5px;
   color: white;
   padding: 12px 30px;
@@ -139,6 +142,12 @@ h2{
   font-size: 20px;
   margin: 50px 0;
 }
+.btn2:hover{
+  background-color: white;
+  color: #2C3E50;
+  border-color: #1ABC9C;
+}
+
 .btn3{
   background-color: #1ABC9C;
   border: none;
@@ -148,24 +157,6 @@ h2{
   margin: 20px 0;
 }
 
-.foot_circle{
-  border: 1px solid white;
-  border-radius: 100%;
-  text-align: center;
-  padding: 10px;
-  vertical-align: middle;
-  height: 100%;
-  line-height: 100%;
-}
-
-
-
-.p_left{
-  padding-left: 60px;
-}
-.p_right{
-  padding-right: 60px;
-}
 
 .list_icon{
   list-style: none;
@@ -173,9 +164,29 @@ h2{
 }
 .list_icon li{
   display: inline-block;
-  font-size: 30px;
-  margin: 0 5px;
+  font-size: 20px;
+  margin-right: 10px;
 }
+.list_icon li:last-child{
+  margin-right: 0px;
+}
+
+.btn4{
+  background-color: #2C3E50;
+  border: 2px solid white;
+  border-radius: 50%;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  width: 50px;
+}
+.btn4:hover{
+  background-color: white;
+  color: #2C3E50;
+  border-color: white;
+}
+
 
 .blue{
   color: #1ABC9C;
@@ -184,6 +195,12 @@ h2{
   color: #2C3E50;
 }
 
+.p_left{
+  padding-left: 60px;
+}
+.p_right{
+  padding-right: 60px;
+}
 .p_top_20{
   padding: 20px 0;
 }
@@ -192,9 +209,11 @@ h2{
 }
 
 
-@media screen and (max-width: 768px){
-  .ciao{
-    padding: 0 100px;
-  }
 
+@media screen and (max-width: 768px){
+
+
+  h1{
+    font-size: 44px;
+  }
 }
